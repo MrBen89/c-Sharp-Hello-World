@@ -1,0 +1,14 @@
+c:\Users\Ben\Documents\Coding\C#\Hello\bin\Debug\net10.0\Hello.exe
+c:\Users\Ben\Documents\Coding\C#\Hello\bin\Debug\net10.0\Hello.deps.json
+c:\Users\Ben\Documents\Coding\C#\Hello\bin\Debug\net10.0\Hello.runtimeconfig.json
+c:\Users\Ben\Documents\Coding\C#\Hello\bin\Debug\net10.0\Hello.dll
+c:\Users\Ben\Documents\Coding\C#\Hello\bin\Debug\net10.0\Hello.pdb
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.AssemblyInfoInputs.cache
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.AssemblyInfo.cs
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.csproj.CoreCompileInputs.cache
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.dll
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\refint\Hello.dll
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.pdb
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.genruntimeconfig.cache
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\ref\Hello.dll
