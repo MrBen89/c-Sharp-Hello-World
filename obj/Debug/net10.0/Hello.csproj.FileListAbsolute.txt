@@ -12,3 +12,4 @@ c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\refint\Hello.dll
 c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.pdb
 c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.genruntimeconfig.cache
 c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\ref\Hello.dll
+c:\Users\Ben\Documents\Coding\C#\Hello\obj\Debug\net10.0\Hello.sourcelink.json
