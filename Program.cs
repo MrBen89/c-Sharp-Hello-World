@@ -25,10 +25,22 @@
 bool yoMamma = true;
 bool isLarge = false;
 
-if (yoMamma && isLarge)
+// if (yoMamma && isLarge)
+// {
+//     Console.WriteLine("Big Mummy");
+//     //brackets optional for single line conditionals
+// } else
+//     Console.WriteLine("Skinny Mummy");
+
+switch (yoMamma)
 {
-    Console.WriteLine("Big Mummy");
-} else
-{
-    Console.WriteLine("Skinny Mummy");
+    case true:
+        Console.WriteLine("switch big momma");
+        break;
+    case false:
+        System.Console.WriteLine("switch skinny momma");
+        break;
+    default:
+        Console.WriteLine("Momma Unknown");
+        break;
 }
