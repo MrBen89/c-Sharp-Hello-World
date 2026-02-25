@@ -45,53 +45,100 @@
 //         break;
 // }
 
-using System.Reflection.Metadata;
+// using System.Reflection.Metadata;
 
-string question1 = "What is the capital of the UK?";
-string answer1 = "London";
-string question2 = "What is 1 + 1?";
-string answer2 = "11";
-string question3 = "What is your favourite colour?";
-string answer3 = "green";
-int score = 0;
+// string question1 = "What is the capital of the UK?";
+// string answer1 = "London";
+// string question2 = "What is 1 + 1?";
+// string answer2 = "11";
+// string question3 = "What is your favourite colour?";
+// string answer3 = "green";
+// int score = 0;
 
-Console.WriteLine(question1);
-string userAnswer = Console.ReadLine();
+// Console.WriteLine(question1);
+// string userAnswer = Console.ReadLine();
 
-if (userAnswer == answer1)
-    {
-        Console.WriteLine("correct");
-        score ++;
-    } 
-else
-    {
-        Console.WriteLine("WROND!");
-    }
+// if (userAnswer == answer1)
+//     {
+//         Console.WriteLine("correct");
+//         score ++;
+//     } 
+// else
+//     {
+//         Console.WriteLine("WROND!");
+//     }
 
-Console.WriteLine(question2);
-userAnswer = Console.ReadLine();
+// Console.WriteLine(question2);
+// userAnswer = Console.ReadLine();
 
-if (userAnswer == answer2)
-    {
-        Console.WriteLine("correct");
-        score ++;
-    } 
-else
-    {
-        Console.WriteLine("WROND!");
-    }
+// if (userAnswer == answer2)
+//     {
+//         Console.WriteLine("correct");
+//         score ++;
+//     } 
+// else
+//     {
+//         Console.WriteLine("WROND!");
+//     }
     
-Console.WriteLine(question3);
-userAnswer = Console.ReadLine();
+// Console.WriteLine(question3);
+// userAnswer = Console.ReadLine();
 
-if (userAnswer == answer3)
-    {
-        Console.WriteLine("correct");
-        score ++;
-    } 
-else
-    {
-        Console.WriteLine("WROND!");
-    }
+// if (userAnswer == answer3)
+//     {
+//         Console.WriteLine("correct");
+//         score ++;
+//     } 
+// else
+//     {
+//         Console.WriteLine("WROND!");
+//     }
 
-Console.WriteLine($"Your score was {score}");
+// Console.WriteLine($"Your score was {score}");
+
+//string.trim() -- Remove whitespace
+//string.ToLower() 
+
+//int++  <-- this will only return int, but willincrement after.
+//++ int <-- will return the incremented int
+
+//int.TryParse(inputstring, out int) <- will parse if possible
+
+Random random = new();
+int randomNum = random.Next(1,11); // returns less than 11
+
+Console.WriteLine("Enter the first number:");
+            int num1;
+            if (int.TryParse(Console.ReadLine(), out num1) == false)
+            {
+                Console.WriteLine("Not a number, Fool!");
+            }
+            Console.WriteLine("Enter the second number:");
+            int num2;
+            if (int.TryParse(Console.ReadLine(), out num2) == false)
+            {
+                Console.WriteLine("Not a number, Fool!");
+            }
+            Console.WriteLine("Choose an operation: +, -, *, /");
+            string operatorVal = Console.ReadLine();
+            switch (operatorVal)
+            {
+                case "+":
+                Console.WriteLine($"Result: {num1 + num2}");
+                break;
+                case "-":
+                Console.WriteLine(num1 - num2);
+                break;
+                case "x":
+                Console.WriteLine(num1 * num2);
+                break;
+                case "/":
+                if (num2 != 0)
+                    Console.WriteLine(num1 / num2);
+                else
+                    Console.WriteLine("Error: Division by zero is not allowed.");
+                break;
+                default:
+                Console.WriteLine("Invalid operation. Please choose +, -, *, or /.");
+                break;
+            }
