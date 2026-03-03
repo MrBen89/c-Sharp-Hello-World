@@ -147,6 +147,13 @@ for(int i=10;i>0;i--)
 {
     //do some i stuff
     Console.WriteLine(i);
+    Thread.Sleep(100);
 }
 
 //just like normal
+int j = 10;
+while(j > 0)
+{
+    Console.WriteLine(j);
+    j--;
+}
