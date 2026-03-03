@@ -104,41 +104,49 @@
 
 //int.TryParse(inputstring, out int) <- will parse if possible
 
-Random random = new();
-int randomNum = random.Next(1,11); // returns less than 11
+// Random random = new();
+// int randomNum = random.Next(1,11); // returns less than 11
 
-Console.WriteLine("Enter the first number:");
-            int num1;
-            if (int.TryParse(Console.ReadLine(), out num1) == false)
-            {
-                Console.WriteLine("Not a number, Fool!");
-            }
-            Console.WriteLine("Enter the second number:");
-            int num2;
-            if (int.TryParse(Console.ReadLine(), out num2) == false)
-            {
-                Console.WriteLine("Not a number, Fool!");
-            }
-            Console.WriteLine("Choose an operation: +, -, *, /");
-            string operatorVal = Console.ReadLine();
-            switch (operatorVal)
-            {
-                case "+":
-                Console.WriteLine($"Result: {num1 + num2}");
-                break;
-                case "-":
-                Console.WriteLine(num1 - num2);
-                break;
-                case "x":
-                Console.WriteLine(num1 * num2);
-                break;
-                case "/":
-                if (num2 != 0)
-                    Console.WriteLine(num1 / num2);
-                else
-                    Console.WriteLine("Error: Division by zero is not allowed.");
-                break;
-                default:
-                Console.WriteLine("Invalid operation. Please choose +, -, *, or /.");
-                break;
-            }
+// Console.WriteLine("Enter the first number:");
+//             int num1;
+//             if (int.TryParse(Console.ReadLine(), out num1) == false)
+//             {
+//                 Console.WriteLine("Not a number, Fool!");
+//             }
+//             Console.WriteLine("Enter the second number:");
+//             int num2;
+//             if (int.TryParse(Console.ReadLine(), out num2) == false)
+//             {
+//                 Console.WriteLine("Not a number, Fool!");
+//             }
+//             Console.WriteLine("Choose an operation: +, -, *, /");
+//             string operatorVal = Console.ReadLine();
+//             switch (operatorVal)
+//             {
+//                 case "+":
+//                 Console.WriteLine($"Result: {num1 + num2}");
+//                 break;
+//                 case "-":
+//                 Console.WriteLine(num1 - num2);
+//                 break;
+//                 case "x":
+//                 Console.WriteLine(num1 * num2);
+//                 break;
+//                 case "/":
+//                 if (num2 != 0)
+//                     Console.WriteLine(num1 / num2);
+//                 else
+//                     Console.WriteLine("Error: Division by zero is not allowed.");
+//                 break;
+//                 default:
+//                 Console.WriteLine("Invalid operation. Please choose +, -, *, or /.");
+//                 break;
+//             }
+
+for(int i=10;i>0;i--)
+{
+    //do some i stuff
+    Console.WriteLine(i);
+}
+
+//just like normal
